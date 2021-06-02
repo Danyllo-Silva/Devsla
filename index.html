@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Devsla</title>
+</head>
+<script>
+    function abrir() {
+        let menuArea = document.getElementById("menu-area");
+
+        if(menuArea.style.width == '300px'){
+            menuArea.style.width == '0px';
+        }else {
+            menuArea.style.width = '300px';
+        }
+    }
+</script>
+<body>
+    <header>
+        <div class="leftside">
+            <a href=""><img src="assets/images/logo.png" alt="Devsla" class="logo"/></a>
+        </div>
+        <div class="middle">
+            <ul>
+                <li ><a href="">Model S</a></li>
+                <li ><a href="">Model 3</a></li>
+                <li ><a href="">Model X</a></li>
+                <li ><a href="">Model Y</a></li>
+                <li ><a href="">SOLAR ROOF</a></li>
+                <li ><a href="">SOLAR PANELS</a></li>
+            </ul>
+        </div>
+        <div class="rightside">
+            <ul>
+                <li><a href="">SHOP</a></li>
+                <li><a href="">TESLA ACCOUNT</a></li>
+                <li class="menu">
+                    <div class="menu--icon">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <aside>    
+            <div id="menu-area">
+                <ul>
+                    <li><img src="assets/images/back.png" class="back" onclick="abrir()"></li>
+                    <li><a href="#"></a>existinng inventory</li>
+                    <li><a href="#"></a>use inventory</li>
+                    <li><a href="#"></a>trade-in</li>
+                    <li><a href="#"></a>cybertruck</li>
+                    <li><a href="#"></a>roadster</li>
+                    <li><a href="#"></a>semi</li>
+                    <li><a href="#"></a>charging</li>
+                    <li><a href="#"></a>powerwall</li>
+                    <li><a href="#"></a>commercial ennergy</li>
+                    <li><a href="#"></a>utilities</li>
+                    <li><a href="#"></a>test drive</li>
+                    <li><a href="#"></a>find us</li>
+                    <li><a href="#"></a>suport</li>
+                    <li><a href="#"></a>united states</li>
+                </ul>
+            </div>
+        </aside>    
+        <div class="info">
+            <h1>Model S</h1>
+            <h2>Order Online for <a href=""> Touchless Delivery </a></h2>
+        </div>
+    </main>
+
+    <footer>
+        <div class="buttons--area">
+            <a href="" class="btn--dark">Custom Ordem</a>
+            <a href="" class="btn--light">Existing inventory</a>
+        </div>
+        <div class="arrow--area">
+            <img class="arrow" src="assets/images/down.png" alt=""/>
+        </div>
+    </footer>
+</body>
+</html>
