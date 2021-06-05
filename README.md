@@ -1,3 +1,3 @@
 ========================Meu repositório Git ===============================
 
-Replicando site da tesla no curos B7Web
+Replicando site da tesla no curso B7Web
